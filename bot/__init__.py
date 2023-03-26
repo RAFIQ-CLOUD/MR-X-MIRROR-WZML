@@ -676,22 +676,22 @@ except KeyError:
 try:
     AUTHOR_NAME = getConfig('AUTHOR_NAME')
     if len(AUTHOR_NAME) == 0:
-        AUTHOR_NAME = 'Karan'
+        AUTHOR_NAME = 'MR X MIRROR'
 except KeyError:
-    AUTHOR_NAME = 'Karan'
+    AUTHOR_NAME = 'MR X MIRROR'
 
 try:
     AUTHOR_URL = getConfig('AUTHOR_URL')
     if len(AUTHOR_URL) == 0:
-        AUTHOR_URL = 'https://t.me/WeebZone_updates'
+        AUTHOR_URL = 'https://t.me/MR_X_MIRROR'
 except KeyError:
-    AUTHOR_URL = 'https://t.me/WeebZone_updates'
+    AUTHOR_URL = 'https://t.me/MR_X_MIRROR'
 try:
     GD_INFO = getConfig('GD_INFO')
     if len(GD_INFO) == 0:
-        GD_INFO = 'Uploaded by WeebZone Mirror Bot'
+        GD_INFO = 'Uploaded by @MROTTTamilOffl'
 except KeyError:
-    GD_INFO = 'Uploaded by WeebZone Mirror Bot'
+    GD_INFO = 'Uploaded by @MROTTTamilOffl'
 try:
     DISABLE_DRIVE_LINK = getConfig('DISABLE_DRIVE_LINK')
     DISABLE_DRIVE_LINK = DISABLE_DRIVE_LINK.lower() == 'true'
@@ -700,17 +700,17 @@ except KeyError:
 try:
     TITLE_NAME = getConfig('TITLE_NAME')
     if len(TITLE_NAME) == 0:
-        TITLE_NAME = 'WeebZone'
+        TITLE_NAME = 'MR X CLOUD'
 except KeyError:
-    TITLE_NAME = 'WeebZone'
+    TITLE_NAME = 'MR X CLOUD'
 try:
     START_BTN1_NAME = getConfig('START_BTN1_NAME')
     START_BTN1_URL = getConfig('START_BTN1_URL')
     if len(START_BTN1_NAME) == 0 or len(START_BTN1_URL) == 0:
         raise KeyError
 except:
-    START_BTN1_NAME = 'Master'
-    START_BTN1_URL = 'https://t.me/krn_adhikari'
+    START_BTN1_NAME = 'MASTER'
+    START_BTN1_URL = 'https://t.me/MR_X_MIRROR'
 
 try:
     START_BTN2_NAME = getConfig('START_BTN2_NAME')
@@ -718,26 +718,26 @@ try:
     if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:
         raise KeyError
 except:
-    START_BTN2_NAME = 'Support Group'
-    START_BTN2_URL = 'https://t.me/WeebZone_updates'
+    START_BTN2_NAME = 'REPO'
+    START_BTN2_URL = 'https://t.me/MR_X_MIRROR'
 try:
     CREDIT_NAME = getConfig('CREDIT_NAME')
     if len(CREDIT_NAME) == 0:
-        CREDIT_NAME = 'WeebZone'
+        CREDIT_NAME = '@MR_X_MIRROR'
 except KeyError:
-    CREDIT_NAME = 'WeebZone'
+    CREDIT_NAME = '@MR_X_MIRROR'
 try:
     NAME_FONT = getConfig('NAME_FONT')
     if len(NAME_FONT) == 0:
-        NAME_FONT = 'code'
+        NAME_FONT = 'b'
 except KeyError:
-    NAME_FONT = 'code'
+    NAME_FONT = 'b'
 try:
     CAPTION_FONT = getConfig('CAPTION_FONT')
     if len(CAPTION_FONT) == 0:
-        CAPTION_FONT = 'code'
+        CAPTION_FONT = 'b'
 except KeyError:
-    CAPTION_FONT = 'code'
+    CAPTION_FONT = 'b'
 try:
     FINISHED_PROGRESS_STR = getConfig('FINISHED_PROGRESS_STR') 
     UN_FINISHED_PROGRESS_STR = getConfig('UN_FINISHED_PROGRESS_STR')
@@ -756,7 +756,7 @@ try:
         raise KeyError
 except KeyError:
     log_info("CHANNEL_USERNAME not provided! Using default @WeebZone_updates")
-    CHANNEL_USERNAME = "WeebZone_updates"
+    CHANNEL_USERNAME = "MR_X_CLOUD"
 try:
     FSUB_CHANNEL_ID = getConfig("FSUB_CHANNEL_ID")
     if len(FSUB_CHANNEL_ID) == 0:
@@ -764,7 +764,7 @@ try:
     FSUB_CHANNEL_ID = int(FSUB_CHANNEL_ID)
 except KeyError:
     log_info("CHANNEL_ID not provided! Using default id of @WeebZone_updates")
-    FSUB_CHANNEL_ID = -1001512307861
+    FSUB_CHANNEL_ID = "-1001534450018"
 try:
     TOKEN_PICKLE_URL = getConfig('TOKEN_PICKLE_URL')
     if len(TOKEN_PICKLE_URL) == 0:
